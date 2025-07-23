@@ -5,6 +5,7 @@ on:
   push:
     tags:
       - "v*.*.*"          # v1.0.0 などのタグで起動
+  workflow_dispatch:
 
 env:
   CARGO_TERM_COLOR: always
